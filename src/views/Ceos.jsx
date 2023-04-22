@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
-import img1 from "../assets/porta-1.png";
+import img1 from "../assets/rams.jpg";
+import img2 from "../assets/leonel.jpg"
 
 const CntColaboradores = styled.section`
     width: 100%;
@@ -63,7 +64,7 @@ const Colaboradores = () => {
                     <p>Frontend Developer</p>
                 </Divimg>
                 <Divimg>
-                    <Img src={img1} alt="colaborador-1" border="0" />
+                    <Img src={img2} alt="colaborador-1" border="0" />
                     <h3>Leonel C.</h3>
                     <p>Backend Developer</p>
                 </Divimg>
